@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "file": "ABCG_50ms_current.csv",
+      "delay_ms": 50,
+      "solution_step_us": 50,
+      "fault_rms_window_s": [
+        0.52,
+        0.54
+      ],
+      "peak_kA": 8.56197421196,
+      "mean_phase_I2t_kA2s": 1.603460847488825,
+      "final_last_above_1A_s": 0.5595,
+      "final_next_sample_s": 0.55975,
+      "phases": [
+        {
+          "export_phase": 1,
+          "normal_rms_A_040_050": 63.04967481759653,
+          "fault_rms_kA": 5.378037771982756,
+          "fault_peak_kA": 8.56197421196,
+          "last_sample_above_1A_s": 0.55275,
+          "next_sample_s": 0.553,
+          "I2t_kA2s_050_070": 1.5649109412485878
+        },
+        {
+          "export_phase": 2,
+          "normal_rms_A_040_050": 63.048543283989844,
+          "fault_rms_kA": 5.377620396385825,
+          "fault_peak_kA": 7.62339743409,
+          "last_sample_above_1A_s": 0.5595,
+          "next_sample_s": 0.55975,
+          "I2t_kA2s_050_070": 1.7141997252140542
+        },
+        {
+          "export_phase": 3,
+          "normal_rms_A_040_050": 63.050323996038536,
+          "fault_rms_kA": 5.368792503744989,
+          "fault_peak_kA": 8.07734903134,
+          "last_sample_above_1A_s": 0.55625,
+          "next_sample_s": 0.5565,
+          "I2t_kA2s_050_070": 1.5312718760038333
+        }
+      ]
+    },
+    {
+      "file": "ABCG_100ms_current.csv",
+      "delay_ms": 100,
+      "solution_step_us": 50,
+      "fault_rms_window_s": [
+        0.57,
+        0.59
+      ],
+      "peak_kA": 8.56197421196,
+      "mean_phase_I2t_kA2s": 3.05013382365852,
+      "final_last_above_1A_s": 0.6095,
+      "final_next_sample_s": 0.60975,
+      "phases": [
+        {
+          "export_phase": 1,
+          "normal_rms_A_040_050": 63.04967481759653,
+          "fault_rms_kA": 5.378991966377039,
+          "fault_peak_kA": 8.56197421196,
+          "last_sample_above_1A_s": 0.60275,
+          "next_sample_s": 0.603,
+          "I2t_kA2s_050_070": 3.0115729902765964
+        },
+        {
+          "export_phase": 2,
+          "normal_rms_A_040_050": 63.048543283989844,
+          "fault_rms_kA": 5.378982854316368,
+          "fault_peak_kA": 7.62339743409,
+          "last_sample_above_1A_s": 0.6095,
+          "next_sample_s": 0.60975,
+          "I2t_kA2s_050_070": 3.1608834300957795
+        },
+        {
+          "export_phase": 3,
+          "normal_rms_A_040_050": 63.050323996038536,
+          "fault_rms_kA": 5.378975884517986,
+          "fault_peak_kA": 8.07734903134,
+          "last_sample_above_1A_s": 0.60625,
+          "next_sample_s": 0.6065,
+          "I2t_kA2s_050_070": 2.977945050603183
+        }
+      ]
+    },
+    {
+      "file": "ABCG_150ms_current.csv",
+      "delay_ms": 150,
+      "solution_step_us": 50,
+      "fault_rms_window_s": [
+        0.62,
+        0.64
+      ],
+      "peak_kA": 8.56197421196,
+      "mean_phase_I2t_kA2s": 4.496914123911891,
+      "final_last_above_1A_s": 0.6595,
+      "final_next_sample_s": 0.65975,
+      "phases": [
+        {
+          "export_phase": 1,
+          "normal_rms_A_040_050": 63.04967481759653,
+          "fault_rms_kA": 5.37918621356391,
+          "fault_peak_kA": 8.56197421196,
+          "last_sample_above_1A_s": 0.65275,
+          "next_sample_s": 0.653,
+          "I2t_kA2s_050_070": 4.458348681479378
+        },
+        {
+          "export_phase": 2,
+          "normal_rms_A_040_050": 63.048543283989844,
+          "fault_rms_kA": 5.379182252351941,
+          "fault_peak_kA": 7.62339743409,
+          "last_sample_above_1A_s": 0.6595,
+          "next_sample_s": 0.65975,
+          "I2t_kA2s_050_070": 4.6076682546456285
+        },
+        {
+          "export_phase": 3,
+          "normal_rms_A_040_050": 63.050323996038536,
+          "fault_rms_kA": 5.379179195855403,
+          "fault_peak_kA": 8.07734903134,
+          "last_sample_above_1A_s": 0.65625,
+          "next_sample_s": 0.6565,
+          "I2t_kA2s_050_070": 4.424725435610666
+        }
+      ]
+    }
+  ],
+  "fine_step_case": {
+    "file": "ABCG_100ms_dt25us_current.csv",
+    "delay_ms": 100,
+    "solution_step_us": 25,
+    "fault_rms_window_s": [
+      0.57,
+      0.59
+    ],
+    "peak_kA": 8.56098241691,
+    "mean_phase_I2t_kA2s": 3.049119592282128,
+    "final_last_above_1A_s": 0.6095,
+    "final_next_sample_s": 0.60975,
+    "phases": [
+      {
+        "export_phase": 1,
+        "normal_rms_A_040_050": 63.04967500588808,
+        "fault_rms_kA": 5.379045038550026,
+        "fault_peak_kA": 8.56098241691,
+        "last_sample_above_1A_s": 0.60275,
+        "next_sample_s": 0.603,
+        "I2t_kA2s_050_070": 3.01169395327759
+      },
+      {
+        "export_phase": 2,
+        "normal_rms_A_040_050": 63.04856611020647,
+        "fault_rms_kA": 5.379035722456627,
+        "fault_peak_kA": 7.6242748277,
+        "last_sample_above_1A_s": 0.6095,
+        "next_sample_s": 0.60975,
+        "I2t_kA2s_050_070": 3.1581202982647567
+      },
+      {
+        "export_phase": 3,
+        "normal_rms_A_040_050": 63.0503502331313,
+        "fault_rms_kA": 5.37902898503093,
+        "fault_peak_kA": 8.08254736692,
+        "last_sample_above_1A_s": 0.60625,
+        "next_sample_s": 0.6065,
+        "I2t_kA2s_050_070": 2.977544525304037
+      }
+    ]
+  },
+  "fine_step_percent_change": {
+    "peak_kA": -0.011583719191943231,
+    "mean_phase_I2t_kA2s": -0.03325202876427458
+  },
+  "theory": {
+    "nominal_source_phase_rms_V": 6350.852961085884,
+    "feeder_reactance_ohm": 0.942477796076938,
+    "normal_rms_A": 63.06367196790131,
+    "fault_rms_kA": 5.379406017616846
+  },
+  "I2t_reduction_150_to_50_percent": 64.34308498437667
+}
